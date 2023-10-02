@@ -1,0 +1,2 @@
+What is the difference between a merge and a rebase?
+When you merge a branch to another, all of the commits on the feature branch will show up as one single commit in the branch you're merging to. Git merge logs will also show you a complete history of merging commits in a non-linear manner. Rebasing on the other hand, keeps all the commits from the feature branch and adds them all separately to the branch you're merging to. No logs of the feature branch are retained. This allows the logs of the branch you merged to to work in a linear manner.
